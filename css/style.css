@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 10px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.container {
+    max-width: 50vw;
+    margin: 40px auto;
+
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.header {
+    font-family: 'Open Sans', sans-serif;
+    border-bottom: 1px solid black;
+    padding: 10px;
+    background-color: lightgrey;
+}
+
+.title {
+    font-size: 2.5rem;
+}
+
+.artist a {
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.lyrics p {
+    padding: 20px 10px;
+    font-size: 1.6rem;
+}
