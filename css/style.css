@@ -22,6 +22,13 @@ body {
     border-bottom: 1px solid black;
     padding: 10px;
     background-color: lightgrey;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.song-desc {
+    padding-left: 10px;
 }
 
 .title {
@@ -31,6 +38,16 @@ body {
 .artist a {
     text-decoration: none;
     font-size: 1.5rem;
+}
+
+.album-cover {
+    height: 100px;
+    width: 100px;
+}
+
+.album-cover img {
+    height: 100%;
+    width: 100%;
 }
 
 .lyrics p {
